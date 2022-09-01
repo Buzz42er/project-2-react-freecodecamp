@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const Nav = () => {
+const Nav = (props) => {
   return (
-    <nav className='App-nav'>
-            <p>React Course - Project 1</p>
+    <nav className={props.darkMode ? "App-nav dark" : ""}>
+      <p>React Course - Project 1</p>
     </nav>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;
