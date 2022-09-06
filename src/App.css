@@ -223,7 +223,7 @@ footer.dark {
   }
 }
 
-@media only screen and (max-width: 600px) and (min-width: 400px) {
+@media screen and (max-width: 600px) {
   .backgroundLogo {
     position: absolute;
     right: 0px;
@@ -235,6 +235,10 @@ footer.dark {
   }
 
   main {
-    height: 73.4vh;
+    height: 80vh;
+  }
+
+  nav p {
+    padding: 5px;
   }
 }
