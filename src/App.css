@@ -98,7 +98,7 @@ nav p {
   box-sizing: content-box;
 }
 
-.App-nav.dark .toggler--slider {
+.App-header.dark .toggler--slider {
   border-color: white;
   background-color: #f5f5f5;
 }
@@ -110,7 +110,7 @@ nav p {
   border-radius: 50%;
 }
 
-.App-nav.dark .toggler--slider--circle {
+.App-header.dark .toggler--slider--circle {
   background-color: black;
 }
 
@@ -118,7 +118,7 @@ nav p {
   color: #2b283a;
 }
 
-.App-nav.dark .toggler--light {
+.App-header.dark .toggler--light {
   color: #918e9b;
 }
 
@@ -130,7 +130,7 @@ nav p {
   color: #ffffff;
 }
 
-.App-nav.dark .toggler--slider {
+.App-header.dark .toggler--slider {
   justify-content: flex-end;
 }
 
