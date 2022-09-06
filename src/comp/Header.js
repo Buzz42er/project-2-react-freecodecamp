@@ -9,7 +9,7 @@ const Header = (props) => {
         <img src={logo} className="App-logo" alt="logo" />
         <h2 className="App-link">ReactFacts</h2>
       </div>
-      <Nav />
+      <Nav toggleDarkMode={props.toggleDarkMode} />
     </header>
   );
 };

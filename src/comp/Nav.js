@@ -2,7 +2,7 @@ import React from "react";
 
 const Nav = (props) => {
   return (
-    <nav className={props.darkMode ? "App-nav dark" : ""}>
+    <nav className={props.darkMode ? "App-nav dark" : "App-nav"}>
       <div className="toggler">
         <p className="toggler--light">Light</p>
         <div className="toggler--slider" onClick={props.toggleDarkMode}>

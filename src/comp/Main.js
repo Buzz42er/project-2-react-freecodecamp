@@ -2,8 +2,8 @@ import React from "react";
 
 const Main = (props) => {
   return (
-    <main className={props.darkMode ? "dark" : "z1"}>
-      <div className="z3">
+    <main className={props.darkMode ? "dark " : ""}>
+      <div className="">
         <h1>This is my 1. SoloReact project</h1>
         <h3>What I did:</h3>
 
